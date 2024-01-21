@@ -15,7 +15,7 @@ namespace DoorangWorld.Core.Repositories
         Task<int> CommitAsync();
         Task CreateAsync(T entity);
         void Delete(T entity);
-        IQueryable<T> GetAllAsync(Expression<Func<T,bool>>?expression=null,params string[]? includes);
+        Task<List<T>> GetAllAsync(Expression<Func<T,bool>>?expression=null,params string[]? includes);
         Task<T> GetByIdAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes);
     }
 }

@@ -1,0 +1,42 @@
+﻿@using DoorangWorld.Core.Entities;
+@model ExploreWorld
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+<h1>update</h1>
+<form method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label">Title</label>
+        <input asp-for="Title" class="form-control">
+        <span asp-validation-for="Title"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Desccription" class="form-label">Desccription</label>
+        <input asp-for="Desccription" class="form-control">
+        <span asp-validation-for="Desccription"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Text1" class="form-label">Text1</label>
+        <input asp-for="Text1" class="form-control">
+        <span asp-validation-for="Text1"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Text2" class="form-label">Text2</label>
+        <input asp-for="Text2" class="form-control">
+        <span asp-validation-for="Text2"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Image" class="form-label">Image</label>
+        <input asp-for="Image" class="form-control">
+        <span asp-validation-for="Image"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Isdeleted" class="form-label">isdeleted</label>
+        <input asp-for="Isdeleted" class="form-control">
+
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

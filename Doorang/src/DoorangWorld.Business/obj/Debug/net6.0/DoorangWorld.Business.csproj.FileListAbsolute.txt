@@ -3,3 +3,15 @@ C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\ne
 C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.AssemblyInfoInputs.cache
 C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.AssemblyInfo.cs
 C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Business.deps.json
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Business.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Business.pdb
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Core.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Data.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Data.pdb
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\bin\Debug\net6.0\DoorangWorld.Core.pdb
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.csproj.CopyComplete
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\refint\DoorangWorld.Business.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.pdb
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\ref\DoorangWorld.Business.dll

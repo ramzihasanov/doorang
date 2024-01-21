@@ -2,12 +2,7 @@
 using DoorangWorld.Core.Repositories;
 using DoorangWorld.Data.DAL;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DoorangWorld.Data.Repositories
 {
@@ -36,7 +31,7 @@ namespace DoorangWorld.Data.Repositories
             Table.Remove(entity);
         }
 
-        public IQueryable<T> GetAllAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)
+        public Task<List<T>>GetAllAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)
         {
            var query=Table.AsQueryable();
             if(expression != null) query = query.Where(expression);
@@ -47,7 +42,7 @@ namespace DoorangWorld.Data.Repositories
                     query=query.Include(include);
                 }
             }
-            return query;
+            return query.ToListAsync();
         }
 
         public async Task<T> GetByIdAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)

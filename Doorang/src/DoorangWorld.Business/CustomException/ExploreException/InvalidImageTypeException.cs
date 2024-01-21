@@ -8,7 +8,7 @@ namespace DoorangWorld.Business.CustomException.ExploreException
 {
     public class InvalidImageTypeException : Exception
     {
-        private readonly string proprtyname;
+        public readonly string proprtyname;
 
         public InvalidImageTypeException()
         {

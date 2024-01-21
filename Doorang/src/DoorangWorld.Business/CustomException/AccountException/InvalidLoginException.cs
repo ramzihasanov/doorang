@@ -8,7 +8,7 @@ namespace DoorangWorld.Business.CustomException.AccountException
 {
     public class InvalidLoginException : Exception
     {
-        private readonly string propertyname;
+        public readonly string propertyname;
 
         public InvalidLoginException()
         {

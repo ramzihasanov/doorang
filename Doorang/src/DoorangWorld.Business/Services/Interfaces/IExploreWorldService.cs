@@ -13,8 +13,8 @@ namespace DoorangWorld.Business.Services.Interfaces
         Task CreateAsync(ExploreWorld explore);
         Task SoftDeleteAsync(int Id);
         Task HardDeleteAsync(int Id);
-        Task<ExploreWorld> GetAsync(Expression<Func<Setting, bool>>? expression = null, params string[]? includes);
-        Task<List<ExploreWorld>> GettAllAsync(Expression<Func<Setting, bool>>? expression = null, params string[]? includes);
+        Task<ExploreWorld> GetAsync(Expression<Func<ExploreWorld, bool>>? expression = null, params string[]? includes);
+        Task<List<ExploreWorld>> GettAllAsync(Expression<Func<ExploreWorld, bool>>? expression = null, params string[]? includes);
 
         Task UpdateAsync(ExploreWorld explore);
     }

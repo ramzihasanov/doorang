@@ -1,4 +1,5 @@
-﻿using DoorangWorld.Business.Services.Interfaces;
+﻿using DoorangWorld.Business.CustomException.AccountException;
+using DoorangWorld.Business.Services.Interfaces;
 using DoorangWorld.Business.ViewModel;
 using DoorangWorld.Core.Entities;
 using Microsoft.AspNetCore.Identity;
@@ -24,9 +25,10 @@ namespace DoorangWorld.Business.Services.Implementes
         {
             AppUser user = null;
               user= await userManager.FindByNameAsync(loginViewModel.username);
-            if(user == null) { throw new InvalidLoginException(); }
-              var result= await signInManager.PasswordSignInAsync(user,loginViewModel.password,true,false);
-            if(!result.Succeeded) { throw new InvalidLoginException(); }
+            if(user == null) { throw new InvalidLoginException("","error"); }
+              var result= await signInManager.PasswordSignInAsync(user,loginViewModel.password,false,false);
+            if(!result.Succeeded) { throw new InvalidLoginException("","error"); }
+            
         }
     }
 }

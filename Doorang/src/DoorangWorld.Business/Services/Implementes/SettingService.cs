@@ -1,4 +1,5 @@
-﻿using DoorangWorld.Business.Services.Interfaces;
+﻿using DoorangWorld.Business.CustomException.SettingException;
+using DoorangWorld.Business.Services.Interfaces;
 using DoorangWorld.Core.Entities;
 using DoorangWorld.Core.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -24,14 +25,22 @@ namespace DoorangWorld.Business.Services.Implementes
          return  await _settingRepository.GetByIdAsync(expression, includes);
         }
 
-        public Task<List<Setting>> GettAllsetting(Expression<Func<Setting, bool>>? expression = null, params string[]? includes)
+        public async Task<List<Setting>> GettAllsetting(Expression<Func<Setting, bool>>? expression = null, params string[]? includes)
         {
-             await _settingRepository.GetAllAsync(expression, includes);
+            return await _settingRepository.GetAllAsync(expression, includes);
         }
 
-        public Task Update(Setting setting)
+        public async Task Update(Setting setting)
         {
-            throw new NotImplementedException();
+           var set=await _settingRepository.GetByIdAsync(x=>x.Key==setting.Key);
+            if (set==null)
+            {
+                throw new NullSettingException();
+            }
+            set.Value = setting.Value;
+
+           await _settingRepository.CommitAsync();
+            
         }
     }
 }

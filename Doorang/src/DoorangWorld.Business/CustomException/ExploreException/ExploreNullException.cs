@@ -8,7 +8,7 @@ namespace DoorangWorld.Business.CustomException.ExploreException
 {
     public class ExploreNullException : Exception
     {
-        private readonly string propertyname;
+        public readonly string propertyname;
 
         public ExploreNullException()
         {
