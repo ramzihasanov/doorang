@@ -1,0 +1,14 @@
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\bin\Debug\net6.0\DoorangWorld.Core.deps.json
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\bin\Debug\net6.0\DoorangWorld.Core.runtimeconfig.json
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\bin\Debug\net6.0\DoorangWorld.Core.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\bin\Debug\net6.0\DoorangWorld.Core.pdb
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\refint\DoorangWorld.Core.dll
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.pdb
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\DoorangWorld.Core.genruntimeconfig.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Core\obj\Debug\net6.0\ref\DoorangWorld.Core.dll

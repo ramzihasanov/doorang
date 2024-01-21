@@ -1,0 +1,5 @@
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.Business\obj\Debug\net6.0\DoorangWorld.Business.csproj.CoreCompileInputs.cache

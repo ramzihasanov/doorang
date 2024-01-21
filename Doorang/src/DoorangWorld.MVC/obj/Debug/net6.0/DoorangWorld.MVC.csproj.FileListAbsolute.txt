@@ -1,0 +1,8 @@
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.csproj.AssemblyReference.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.AssemblyInfoInputs.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.AssemblyInfo.cs
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.csproj.CoreCompileInputs.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.RazorAssemblyInfo.cache
+C:\Users\ll novbe\Desktop\doorang\Doorang\src\DoorangWorld.MVC\obj\Debug\net6.0\DoorangWorld.MVC.RazorAssemblyInfo.cs
